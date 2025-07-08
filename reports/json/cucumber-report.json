@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 236288199
+              "duration": 356995249
             }
           },
           {
@@ -23,11 +23,11 @@
             "line": 4,
             "name": "user navigates to the application",
             "match": {
-              "location": "src\\test\\steps\\loginstep.ts:6"
+              "location": "src/test/steps/loginstep.ts:6"
             },
             "result": {
               "status": "passed",
-              "duration": 1859752199
+              "duration": 852271250
             }
           },
           {
@@ -36,11 +36,11 @@
             "line": 5,
             "name": "user click on the login link",
             "match": {
-              "location": "src\\test\\steps\\loginstep.ts:9"
+              "location": "src/test/steps/loginstep.ts:9"
             },
             "result": {
               "status": "passed",
-              "duration": 94438599
+              "duration": 95456959
             }
           },
           {
@@ -49,11 +49,11 @@
             "line": 6,
             "name": "user enters username as \"yuvaraj2004\"",
             "match": {
-              "location": "src\\test\\steps\\loginstep.ts:12"
+              "location": "src/test/steps/loginstep.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 170834700
+              "duration": 82855499
             }
           },
           {
@@ -62,11 +62,11 @@
             "line": 7,
             "name": "user enters password as \"ry@YUVI20\"",
             "match": {
-              "location": "src\\test\\steps\\loginstep.ts:15"
+              "location": "src/test/steps/loginstep.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 21898799
+              "duration": 4522333
             }
           },
           {
@@ -75,11 +75,11 @@
             "line": 8,
             "name": "user clicks on the login button",
             "match": {
-              "location": "src\\test\\steps\\loginstep.ts:18"
+              "location": "src/test/steps/loginstep.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 60025700
+              "duration": 33358791
             }
           },
           {
@@ -88,11 +88,11 @@
             "line": 9,
             "name": "Login should be successful",
             "match": {
-              "location": "src\\test\\steps\\loginstep.ts:21"
+              "location": "src/test/steps/loginstep.ts:21"
             },
             "result": {
               "status": "passed",
-              "duration": 221383199
+              "duration": 142922000
             }
           },
           {
@@ -101,11 +101,11 @@
             "line": 10,
             "name": "user searches for item with name \"\"Rot & Ruin\"\"",
             "match": {
-              "location": "src\\test\\steps\\addtocartstep.ts:6"
+              "location": "src/test/steps/addtocartstep.ts:6"
             },
             "result": {
               "status": "passed",
-              "duration": 78322700
+              "duration": 12252915
             }
           },
           {
@@ -114,11 +114,11 @@
             "line": 11,
             "name": "user adds item to cart",
             "match": {
-              "location": "src\\test\\steps\\addtocartstep.ts:9"
+              "location": "src/test/steps/addtocartstep.ts:9"
             },
             "result": {
               "status": "passed",
-              "duration": 76972500
+              "duration": 28037707
             }
           },
           {
@@ -127,11 +127,12 @@
             "line": 12,
             "name": "item should be added to cart \"\"Rot & Ruin\"\"",
             "match": {
-              "location": "src\\test\\steps\\addtocartstep.ts:12"
+              "location": "src/test/steps/addtocartstep.ts:12"
             },
             "result": {
-              "status": "passed",
-              "duration": 262886599
+              "status": "failed",
+              "duration": 5001882416,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (/Users/sevvelkaranpalanivetrivel/Desktop/SK/Training /PlaywrightBDDCucumber/node_modules/@cucumber/cucumber/src/time.ts:52:14)\n    at listOnTimeout (node:internal/timers:588:17)\n    at processTimers (node:internal/timers:523:7)"
             }
           },
           {
@@ -139,7 +140,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 68286300
+              "duration": 35487374
             }
           }
         ],
@@ -152,7 +153,7 @@
     "keyword": "Feature",
     "name": "Add to cart functionality",
     "tags": [],
-    "uri": "src\\test\\features\\addtocart.feature"
+    "uri": "src/test/features/addtocart.feature"
   },
   {
     "description": "",
@@ -169,7 +170,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 177514099
+              "duration": 174049833
             }
           },
           {
@@ -178,11 +179,11 @@
             "line": 4,
             "name": "user navigates to the application",
             "match": {
-              "location": "src\\test\\steps\\loginstep.ts:6"
+              "location": "src/test/steps/loginstep.ts:6"
             },
             "result": {
               "status": "passed",
-              "duration": 1277266800
+              "duration": 540217459
             }
           },
           {
@@ -191,11 +192,11 @@
             "line": 5,
             "name": "user click on the login link",
             "match": {
-              "location": "src\\test\\steps\\loginstep.ts:9"
+              "location": "src/test/steps/loginstep.ts:9"
             },
             "result": {
               "status": "passed",
-              "duration": 95073099
+              "duration": 103345959
             }
           },
           {
@@ -204,11 +205,11 @@
             "line": 8,
             "name": "user enters username as \"yuvaraj2004\"",
             "match": {
-              "location": "src\\test\\steps\\loginstep.ts:12"
+              "location": "src/test/steps/loginstep.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 245649300
+              "duration": 181007916
             }
           },
           {
@@ -217,11 +218,11 @@
             "line": 9,
             "name": "user enters password as \"ry@YUVI20\"",
             "match": {
-              "location": "src\\test\\steps\\loginstep.ts:15"
+              "location": "src/test/steps/loginstep.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 26690899
+              "duration": 7516125
             }
           },
           {
@@ -230,11 +231,11 @@
             "line": 10,
             "name": "user clicks on the login button",
             "match": {
-              "location": "src\\test\\steps\\loginstep.ts:18"
+              "location": "src/test/steps/loginstep.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 63204199
+              "duration": 31894333
             }
           },
           {
@@ -243,11 +244,11 @@
             "line": 11,
             "name": "Login should be successful",
             "match": {
-              "location": "src\\test\\steps\\loginstep.ts:21"
+              "location": "src/test/steps/loginstep.ts:21"
             },
             "result": {
               "status": "passed",
-              "duration": 393203000
+              "duration": 131100374
             }
           },
           {
@@ -255,7 +256,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 68080899
+              "duration": 17230790
             }
           }
         ],
@@ -274,7 +275,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 186685800
+              "duration": 153790957
             }
           },
           {
@@ -283,11 +284,11 @@
             "line": 4,
             "name": "user navigates to the application",
             "match": {
-              "location": "src\\test\\steps\\loginstep.ts:6"
+              "location": "src/test/steps/loginstep.ts:6"
             },
             "result": {
               "status": "passed",
-              "duration": 1223897100
+              "duration": 1095737250
             }
           },
           {
@@ -296,11 +297,11 @@
             "line": 5,
             "name": "user click on the login link",
             "match": {
-              "location": "src\\test\\steps\\loginstep.ts:9"
+              "location": "src/test/steps/loginstep.ts:9"
             },
             "result": {
               "status": "passed",
-              "duration": 95368000
+              "duration": 94927583
             }
           },
           {
@@ -309,11 +310,11 @@
             "line": 14,
             "name": "user enters username as \"yuvaraj2004\"",
             "match": {
-              "location": "src\\test\\steps\\loginstep.ts:12"
+              "location": "src/test/steps/loginstep.ts:12"
             },
             "result": {
               "status": "passed",
-              "duration": 364948500
+              "duration": 93560208
             }
           },
           {
@@ -322,11 +323,11 @@
             "line": 15,
             "name": "user enters password as \"YUVI20\"",
             "match": {
-              "location": "src\\test\\steps\\loginstep.ts:15"
+              "location": "src/test/steps/loginstep.ts:15"
             },
             "result": {
               "status": "passed",
-              "duration": 25767700
+              "duration": 3686208
             }
           },
           {
@@ -335,11 +336,11 @@
             "line": 16,
             "name": "user clicks on the login button",
             "match": {
-              "location": "src\\test\\steps\\loginstep.ts:18"
+              "location": "src/test/steps/loginstep.ts:18"
             },
             "result": {
               "status": "passed",
-              "duration": 52014900
+              "duration": 42213666
             }
           },
           {
@@ -348,11 +349,11 @@
             "line": 17,
             "name": "Login should Fail",
             "match": {
-              "location": "src\\test\\steps\\loginstep.ts:26"
+              "location": "src/test/steps/loginstep.ts:26"
             },
             "result": {
               "status": "passed",
-              "duration": 287299
+              "duration": 107415
             }
           },
           {
@@ -360,7 +361,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 57933199
+              "duration": 14655332
             }
           }
         ],
@@ -373,6 +374,6 @@
     "keyword": "Feature",
     "name": "User Authentication tests",
     "tags": [],
-    "uri": "src\\test\\features\\login.feature"
+    "uri": "src/test/features/login.feature"
   }
 ]

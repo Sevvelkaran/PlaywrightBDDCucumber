@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "test": "cucumber-js --require-module ts-node/register --require src/hooks/**/*.ts --require src/test/steps/**/*.ts --format json:./reports/json/cucumber-report.json",
-  "report": "node reporter.js"
-},
+    "test": "cucumber-js",
+    "posttest": "npx ts-node src/helper/report.ts",
+    "report": "node reporter.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -16,6 +17,7 @@
     "@playwright/test": "^1.53.2",
     "@types/node": "^24.0.10",
     "multiple-cucumber-html-reporter": "^3.9.3",
+    "playwright": "^1.53.2",
     "ts-node": "^10.9.2"
   }
 }

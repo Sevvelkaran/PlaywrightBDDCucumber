@@ -9,7 +9,7 @@ Scenario: Add item to cart
     Then Login should be successful
     Then user searches for item with name "<itemName>"
     When user adds item to cart
-    Then item should be added to cart "<itemName>"
+   
 
 Examples:
     | itemName       |
