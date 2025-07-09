@@ -14,6 +14,29 @@ module.exports = {
       "html:reports/cucumber-report.html",
       "json:test-results/cucumber-report.json"
     ],
-    requireModule: ["ts-node/register"]
+    requireModule: ["ts-node/register"],
+    parallel: 2
+  },
+
+
+    rerun: {
+    formatOptions: {
+      snippetInterface: "async-await"
+    },
+    dryRun: false,
+    paths: ["@rerun.txt"],
+    require: [
+      "src/test/steps/**/*.ts",
+      "src/hooks/**/*.ts"
+    ],
+    format: [
+      "progress-bar",
+      "rerun:@rerun.txt",
+      "html:reports/cucumber-report.html",
+      "json:test-results/cucumber-report.json"
+    ],
+    requireModule: ["ts-node/register"],
+    parallel: 2
   }
-};
+
+}
