@@ -23,6 +23,7 @@
     "dotenv": "^17.1.0",
     "multiple-cucumber-html-reporter": "^3.9.3",
     "playwright": "^1.53.2",
-    "ts-node": "^10.9.2"
+    "ts-node": "^10.9.2",
+    "winston": "^3.17.0"
   }
 }
